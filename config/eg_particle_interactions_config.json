@@ -1,0 +1,88 @@
+{
+	"maxUnderwaterBubbles_onPlace": 12,
+	"underwaterBubbles_onPlace": true,
+	"maxUnderwaterBubbles_onBreak": 6,
+	"underwaterBubbles_onBreak": true,
+	"maxSnowflakes_onPlace": 2,
+	"snowflake_onPlace": true,
+	"maxSnowflakes_onBreak": 3,
+	"snowflake_onBreak": true,
+	"snowflake_BlockItems": [
+		"minecraft:snow",
+		"minecraft:snow_block",
+		"minecraft:powder_snow_bucket"
+	],
+	"maxCherryPetals_onPlace": 2,
+	"cherryPetal_onPlace": true,
+	"maxCherryPetals_onBreak": 3,
+	"cherryPetal_onBreak": true,
+	"cherryPetal_BlockItems": [
+		"minecraft:cherry_leaves",
+		"minecraft:cherry_sapling",
+		"minecraft:pink_petals"
+	],
+	"maxAzaleaLeaves_onPlace": 2,
+	"azaleaLeaf_onPlace": true,
+	"maxAzaleaLeaves_onBreak": 3,
+	"azaleaLeaf_onBreak": true,
+	"azaleaLeaf_BlockItems": [
+		"minecraft:azalea",
+		"minecraft:azalea_leaves"
+	],
+	"maxFloweringAzaleaLeaves_onPlace": 2,
+	"floweringAzaleaLeaf_onPlace": true,
+	"maxFloweringAzaleaLeaves_onBreak": 3,
+	"floweringAzaleaLeaf_onBreak": true,
+	"floweringAzaleaLeaf_BlockItems": [
+		"minecraft:flowering_azalea",
+		"minecraft:flowering_azalea_leaves"
+	],
+	"maxTintedLeaves_onPlace": 2,
+	"tintedLeaves_onPlace": true,
+	"maxTintedLeaves_onBreak": 3,
+	"tintedLeaves_onBreak": true,
+	"tintedLeaves_BlockItems": [
+		"minecraft:jungle_leaves",
+		"minecraft:oak_leaves",
+		"minecraft:spruce_leaves",
+		"minecraft:dark_oak_leaves",
+		"minecraft:acacia_leaves",
+		"minecraft:birch_leaves",
+		"minecraft:mangrove_leaves"
+	],
+	"maxBlock_onPlace": 2,
+	"block_onPlace": true,
+	"maxBlock_onBreak": 4,
+	"block_onBreak": true,
+	"campfireSpark_spawnChance": 20,
+	"campfireSpark_enabled": true,
+	"fireSpark_spawnChance": 25,
+	"fireSpark_enabled": true,
+	"minecart_spawnChance": 50,
+	"minecart_enabled": true,
+	"minecart_onlyWithPassenger": true,
+	"tintedWaterSplash_fluids": [
+		"minecraft:water",
+		"minecraft:flowing_water"
+	],
+	"maxTintedWaterSplash_onPlace": 12,
+	"tintedWaterSplash_onPlace": true,
+	"lavaSplash_fluids": [
+		"minecraft:lava",
+		"minecraft:flowing_lava"
+	],
+	"maxLavaSplash_onPlace": 7,
+	"lavaSplash_onPlace": true,
+	"genericSplash_fluids": [],
+	"maxGenericSplash_onPlace": 10,
+	"genericSplash_onPlace": true,
+	"flintAndSteelSpark_intensity": 5,
+	"maxFlintAndSteelSpark_onUse": 12,
+	"flintAndSteelSpark_onUse": true,
+	"maxAxeStrip_onUse": 12,
+	"axeStrip_onUse": true,
+	"maxHoeTill_onUse": 12,
+	"hoeTill_onUse": true,
+	"maxShovelFlatten_onUse": 12,
+	"shovelFlatten_onUse": true
+}

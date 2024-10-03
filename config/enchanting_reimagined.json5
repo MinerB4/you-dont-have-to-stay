@@ -1,0 +1,35 @@
+{
+	"removeEnchantingTableRecipe": false,
+	"repairing": {
+		"allowRepair": true,
+		"consistentRepairPrice": true,
+		"repairPrice": 2
+	},
+	"extraction": {
+		"allowExtraction": true,
+		"extractionCost": 1,
+		"extractionCostPerLevel": true
+	},
+	"scrubbing": {
+		"allowScrubbing": true,
+		"scrubbingCost": 5
+	},
+	"applying": {
+		"allowApplying": true,
+		"applyingCost": 1,
+		"applyingCostPerLevel": true
+	},
+	"combining": {
+		"allowCombining": true,
+		"combiningCost": 0
+	},
+	"splitting": {
+		"allowSplitting": true,
+		"splittingCost": 0
+	},
+	"upgrading": {
+		"allowUpgrading": true,
+		"upgradingCost": 1,
+		"advancedDustExtraLevelCount": 1
+	}
+}

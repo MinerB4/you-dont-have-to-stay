@@ -1,0 +1,6 @@
+[general]
+friends = ["MinerDK4", "willyandme"]
+addWhitelistPlayers = true
+[compat]
+playerMobsCompat = false
+playerMobsWhitelist = []

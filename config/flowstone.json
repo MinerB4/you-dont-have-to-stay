@@ -1,0 +1,7 @@
+{
+  "allowDeepslateGenerators": true,
+  "allowWorldlyGenerators": true,
+  "allowCustomGenerators": false,
+  "enableBasaltGeneration": false,
+  "enableNetherrackGeneration": true
+}
