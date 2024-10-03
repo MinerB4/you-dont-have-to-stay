@@ -1,0 +1,27 @@
+{
+  "automaticallyStart": true,
+  "automaticallyFinish": true,
+  "showRecordingToasts": true,
+  "quicksave": true,
+  "hidePauseMenuControls": false,
+  "markDimensionChanges": true,
+  "recordHotbar": true,
+  "localPlayerUpdatesPerSecond": 20,
+  "recordVoiceChat": false,
+  "openedWindows": [],
+  "nextUnsupportedModLoaderWarning": 0,
+  "flightCameraDirection": false,
+  "flightMomentum": 1.0,
+  "flightLockX": false,
+  "flightLockY": false,
+  "flightLockZ": false,
+  "flightLockYaw": false,
+  "flightLockPitch": false,
+  "recentReplays": [
+    "C:\\Users\\Miner\\AppData\\Roaming\\.modrinth\\profiles\\you don_t have to stay\\flashback\\replays\\2024-10-03T10_46_51.zip",
+    "C:\\Users\\Miner\\AppData\\Roaming\\.modrinth\\profiles\\you don_t have to stay\\flashback\\replays\\2024-10-03T10_12_37.zip",
+    "C:\\Users\\Miner\\AppData\\Roaming\\.modrinth\\profiles\\you don_t have to stay\\flashback\\replays\\2024-10-03T09_48_47.zip"
+  ],
+  "defaultExportFilename": "%date%T%time%",
+  "defaultInterpolationType": "SMOOTH"
+}

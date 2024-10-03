@@ -1,107 +1,101 @@
-[client]
+[customization]
 
-# If enabled, the text overlay on waystones will no longer always render at full brightness.
-disableTextGlow = false
+# Items that count as fireworks for the offhand-firework tweak options.
+fireworkItems = [ "minecraft:firework_rocket" ]
 
-[compatibility]
-
-# If enabled, Waystones will add markers for waystones and sharestones to BlueMap.
-blueMap = true
-
-# If enabled, Waystones will add markers for waystones and sharestones to Dynmap.
-dynmap = true
-
-# If enabled, JourneyMap waypoints will be created for each activated waystone.
-journeyMap = true
-
-# If enabled, JourneyMap waypoints will only be created if the mod 'JourneyMap Integration' is not installed
-preferJourneyMapIntegrationMod = true
-
-[general]
-
-# Add GLOBAL to allow every player to create global waystones.
-allowedVisibilities = [  ]
-
-# List of waystone origins that should prevent others from editing. PLAYER is special in that it allows only edits by the owner of the waystone.
-restrictedWaystones = [ "PLAYER" ]
-
-# The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.
-scrollUseTime = 32
-
-# The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
-warpPlateUseTime = 15
-
-# The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.
-warpStoneUseTime = 32
-
-[inventoryButton]
-
-# The y position of the inventory button in the creative menu.
-creativeInventoryButtonX = 88
-
-# The y position of the inventory button in the creative menu.
-creativeInventoryButtonY = 33
-
-# Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
-inventoryButton = ""
-
-# The x position of the inventory button in the inventory.
-inventoryButtonX = 58
-
-# The y position of the inventory button in the inventory.
-inventoryButtonY = 60
-
-[teleports]
-
-# Set to false to simply disable all cooldowns. See warpRequirements for more fine-grained control.
-enableCooldowns = true
-
-# Set to false to simply disable all xp costs. See warpRequirements for more fine-grained control.
-enableCosts = true
-
-# List of entities that cannot be teleported, either as pet, leashed, or on warp plates.
-entityDenyList = [ "minecraft:wither" ]
-
-# Set to ENABLED to have leashed mobs teleport with you. Set to SAME_DIMENSION to have leashed mobs teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
-transportLeashed = "ENABLED"
-
-# Set to ENABLED to have nearby pets teleport with you. Set to SAME_DIMENSION to have nearby pets teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
-transportPets = "DISABLED"
-
-# List of warp requirements with comma-separated parameters in parentheses. Conditions can be defined as comma-separated list in square brackets. Will be applied in order.
-warpRequirements = [ 
-    "[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)", 
-    "[is_interdimensional] add_xp_cost(27)", 
-    "[source_is_warp_plate] multiply_xp_cost(0)", 
-    "[target_is_global] multiply_xp_cost(0)", 
-    "min_xp_cost(0)", 
-    "max_xp_cost(27)", 
-    "[source_is_inventory_button] add_cooldown(inventory_button, 300)"
+# Blocks that should be protected in the prevent accidental mining tweak.
+fragileBlocks = [ 
+    "minecraft:small_amethyst_bud", 
+    "minecraft:medium_amethyst_bud", 
+    "minecraft:budding_amethyst", 
+    "minecraft:large_amethyst_bud"
 ]
 
-[worldGen]
+# Items that count as shields for the offhand-shield hiding tweak options.
+shieldItems = [ 
+    "basicshields:wooden_shield", 
+    "basicshields:golden_shield", 
+    "basicshields:diamond_shield", 
+    "basicshields:netherite_shield"
+]
 
-# Approximate chunk distance between wild waystones being generated. Set to 0 to disable generation.
-chunksBetweenWildWaystones = 25
+# Items that count as weapons for the offhand-shield hiding tweak options.
+shieldWeapons = [ "tetra:modular_sword" ]
 
-# Set to 'PRESET_FIRST' to first use names from the nameGenerationPresets. Set to 'PRESET_ONLY' to use only those custom names. Set to 'MIXED' to have some waystones use custom names, and others random names.
-nameGenerationMode = "PRESET_FIRST"
+# Items that count as torches for the offhand-torch tweak options.
+torchItems = [ "minecraft:torch", "minecraft:soul_torch", "tconstruct:stone_torch" ]
 
-# These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
-nameGenerationPresets = [  ]
+# Items that are allowed to place torches from the offhand if offhandTorchWithToolOnly is enabled.
+torchTools = [ 
+    "minecraft:wooden_pickaxe", 
+    "minecraft:stone_pickaxe", 
+    "minecraft:iron_pickaxe", 
+    "minecraft:golden_pickaxe", 
+    "minecraft:diamond_pickaxe", 
+    "minecraft:netherite_pickaxe", 
+    "tconstruct:pickaxe", 
+    "tconstruct:hammer"
+]
 
-# The template to use when generating new names. Supported placeholders are {Biome} (english biome name) and {MrPork} (the default name generator).
-nameGenerationTemplate = "{MrPork}"
+[tweaks]
 
-# Set to REGULAR to have waystones spawn in some villages. Set to FREQUENT to have waystones spawn in most villages. Set to DISABLED to disable waystone generation in villages. Waystones will only spawn in vanilla or supported villages.
-spawnInVillages = "REGULAR"
+# This option will let you climb ladders automatically by just looking upwards, rather than requiring a key to be held down.
+autoClimbLadder = false
 
-# Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.
-wildWaystoneStyle = "BIOME"
+# This option will make chains have a bigger hitbox while placing them, making it easier to aim.
+chainBuildingSupport = true
 
-# List of dimensions that wild waystones are allowed to spawn in. If left empty, all dimensions except those in wildWaystonesDimensionDenyList are used.
-wildWaystonesDimensionAllowList = [ "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether" ]
+# This option will increase the hitbox of random-offset blocks in creative mode, making it easier to break them quickly.
+creativeBreakingSupport = true
 
-# List of dimensions that wild waystones are not allowed to spawn in. Only used if wildWaystonesDimensionAllowList is empty.
-wildWaystonesDimensionDenyList = [  ]
+# This option will disable log stripping.
+disableLogStripping = false
+
+# This option will disable step assist added by other mods.
+disableStepAssist = false
+
+# This prevents the last torch in the offhand from being placed.
+doNotUseLastTorch = false
+
+# This option will hide your offhand item. It can be toggled via an optional key binding.
+hideOffhandItem = false
+
+# This option will hide your own potion particle effects for your client (other players will still see them).
+hideOwnParticleEffects = false
+
+# This option will hide your shield unless you are holding a weapon.
+hideShieldUnlessHoldingWeapon = true
+
+# This adds back the master volume slider to the options screen. Saves you a click!
+masterVolumeSlider = true
+
+# This adds back the music volume slider to the options screen. Saves you a click!
+musicVolumeSlider = true
+
+# This prevents fireworks from being launched from your off hand if you are wearing an Elytra, unless you're flying.
+noOffhandFireworksWithElytra = true
+
+# This prevents torches from being placed from your offhand at all.
+noOffhandTorchAtAll = false
+
+# This prevents torches from being placed from your offhand if you have a block in your main hand.
+noOffhandTorchWithBlock = true
+
+# This prevents torches from being placed from your off hand if you have an empty main hand.
+noOffhandTorchWithEmptyHand = false
+
+# This prevents torches from being placed from your offhand if you have food in your main hand.
+noOffhandTorchWithFood = true
+
+# This option makes the recipe book not shift the inventory when opened. Works best with smaller GUI scales / bigger resolutions.
+noRecipeBookShifting = false
+
+# This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
+offhandTorchWithToolOnly = false
+
+# This option will make iron fences and glass panes have a bigger hitbox while placing them, making it easier to aim.
+paneBuildingSupport = true
+
+# Prevents accidental mining of certain fragile blocks like budding amethysts.
+preventAccidentalMining = false
 

@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Miner/AppData/Roaming/.modrinth/profiles/you don_t have to stay/flashback/temp/server/b8a7883f-7167-422d-92d8-5b4fedbbfd54/saves/replay
+}
+
