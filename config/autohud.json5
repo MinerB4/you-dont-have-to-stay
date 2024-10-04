@@ -1,6 +1,6 @@
 {
 	"dynamicOnLoad": true,
-	"ticksRevealed": 40,
+	"ticksRevealed": 10,
 	"animationMove": false,
 	"animationFade": true,
 	"animationSpeed": 2.0,
@@ -25,7 +25,7 @@
 	},
 	"statusEffectTimer": true,
 	"defaultValues": {
-		"speedMultiplier": 1.0,
+		"speedMultiplier": 5.0,
 		"distance": 0,
 		"maximumFade": 0.1
 	},

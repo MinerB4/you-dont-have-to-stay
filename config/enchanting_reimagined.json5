@@ -1,5 +1,5 @@
 {
-	"removeEnchantingTableRecipe": false,
+	"removeEnchantingTableRecipe": true,
 	"repairing": {
 		"allowRepair": true,
 		"consistentRepairPrice": true,
@@ -7,6 +7,7 @@
 	},
 	"extraction": {
 		"allowExtraction": true,
+		"consumeItem": true,
 		"extractionCost": 1,
 		"extractionCostPerLevel": true
 	},

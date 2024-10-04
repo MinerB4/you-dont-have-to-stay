@@ -1,0 +1,16 @@
+{
+  "offsetY": 0.0,
+  "offsetZ": 0.0,
+  "debugLogEnabled": false,
+  "skipOldAnimationsEnabled": true,
+  "listMode": "DISABLED",
+  "list": {},
+  "offsetX": 0.0,
+  "soundsEnabled": true,
+  "patMeEnabled": true,
+  "modEnabled": true,
+  "soundsVolume": 1.0,
+  "bypassServerResourcePackPriorityEnabled": false,
+  "hidingNicknameEnabled": true,
+  "swingHandEnabled": true
+}
