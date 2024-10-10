@@ -1,0 +1,19 @@
+{
+	"ModEnabled": true,
+	"Furnace": {
+		"CookTime": 150,
+		"FuelEfficiency": 150
+	},
+	"BlastFurnace": {
+		"CookTime": 100,
+		"FuelEfficiency": 150
+	},
+	"Smoker": {
+		"CookTime": 100,
+		"FuelEfficiency": 150
+	},
+	"Other": {
+		"CookTime": 100,
+		"FuelEfficiency": 150
+	}
+}

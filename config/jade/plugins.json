@@ -1,4 +1,7 @@
 {
+  "toms_trading_network": {
+    "vending_machine": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -57,6 +60,10 @@
     "entity": true,
     "entity_variant": true
   },
+  "toms_storage": {
+    "inventory_config": true,
+    "inventory_connector": true
+  },
   "item-descriptions": {
     "block_descriptions": true,
     "entity_descriptions": true
@@ -77,7 +84,7 @@
     "trellis.pot_plant": true,
     "hanging_pot.pot_flower": true
   },
-  "waystones": {
-    "waystone": true
+  "unlitcampfire": {
+    "campfireinfo": true
   }
 }

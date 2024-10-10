@@ -1,0 +1,53 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enderPearlTrail = true
+stomachGrowling = false
+sheepShearFluff = true
+improvedDragonFireballTrail = true
+heartBeating = true
+endCrystalParticles = true
+minecartLandingSparks = true
+slimeTrails = true
+magmaCubeTrails = true
+replaceSlimeSquishParticles = true
+replaceSpellCasterParticles = true
+ironGolemCrackParticles = true
+spectralArrowParticles = true
+
+[attacked]
+chickenFeathers = true
+parrotFeathers = true
+snowGolemSnowflakes = true
+
+[sleeping]
+playerSnoreChance = 1.0
+villagerSnoreChance = 1.0
+displaySleepingZsOnlyWhenSnoring = false
+foxesHaveSleepingZs = true
+batsHaveSleepingZs = true
+catsHaveSleepingZs = true
+adjustNameTagWhenSleeping = true
+sleepingZs = true
+
+[dustClouds]
+scale = 0.5
+alpha = 0.3
+fallDamage = false
+sprinting = false
+mobSprinting = true
+
+[burning]
+smoke = "DEFAULT"
+flames = true
+sparks = true
+sounds = true
+
+[itemRarity]
+particlesDisplayType = "ON"
+particleColor = "NAME_COLOR"
+particleMaxHeight = 7
+
+[primedTNT]
+updateSmoke = true
+flames = true
+sparks = true

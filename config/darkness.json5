@@ -1,12 +1,12 @@
 {
-	"darkOverworld": false,
-	"darkNether": false,
-	"darkEnd": false,
-	"darkDefault": false,
-	"darkSkyless": false,
+	"darkOverworld": true,
+	"darkNether": true,
+	"darkEnd": true,
+	"darkDefault": true,
+	"darkSkyless": true,
 	"darkNetherFog": 0.5,
 	"darkEndFog": 0.0,
-	"blockLightOnly": false,
+	"blockLightOnly": true,
 	"ignoreMoonPhase": false,
 	"requireMod": false
 }

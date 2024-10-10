@@ -27,7 +27,7 @@
 	"defaultValues": {
 		"speedMultiplier": 5.0,
 		"distance": 0,
-		"maximumFade": 0.1
+		"maximumFade": 0.2
 	},
 	"health": {
 		"policy": "Changing"
@@ -68,7 +68,7 @@
 			"onChange": true
 		},
 		"onSlotChange": true,
-		"onLowDurability": true,
+		"onLowDurability": false,
 		"durabilityPercentage": 10,
 		"durabilityTotal": 20,
 		"maximumFadeHotbarItems": 0.1,
