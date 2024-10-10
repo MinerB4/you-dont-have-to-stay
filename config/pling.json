@@ -1,10 +1,10 @@
 {
-  "sound": "minecraft:entity.experience_orb.pickup",
+  "sound": "minecraft:item.armor.equip_leather",
   "pitch": 1.0,
   "playWhenWorldCreationPrepared": false,
-  "playWhenWorldLoaded": false,
+  "playWhenWorldLoaded": true,
   "playWhenWorldOptimized": false,
-  "playWhenResourcesReloaded": true,
+  "playWhenResourcesReloaded": false,
   "requireUnfocused": false,
   "requestWindowAttention": false
 }
