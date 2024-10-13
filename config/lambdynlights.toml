@@ -1,0 +1,91 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				pig = true
+				item = true
+				zombie = true
+				frog = true
+				spider = true
+				creeper = true
+				bat = true
+				chest_minecart = true
+				villager = true
+				cat = true
+				item_frame = true
+				enderman = true
+				squid = true
+				armor_stand = true
+				chicken = true
+				witch = true
+				dolphin = true
+				glow_squid = true
+				skeleton = true
+				sheep = true
+				armadillo = true
+				cave_spider = true
+				mooshroom = true
+				cow = true
+				horse = true
+				iron_golem = true
+				bee = true
+				slime = true
+				zombie_villager = true
+				painting = true
+				drowned = true
+				boat = true
+				rabbit = true
+				wolf = true
+				wither_skeleton = true
+				warden = true
+				elder_guardian = true
+				pillager = true
+				vindicator = true
+				arrow = true
+
+			[light_sources.settings.entities.tide]
+				bass = true
+				trout = true
+				guppy = true
+				yellow_perch = true
+				bluegill = true
+				mint_carp = true
+				pike = true
+				tuna = true
+				catfish = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.friendsandfoes]
+				mauler = true
+				rascal = true
+
+			[light_sources.settings.entities.zombifiedplayer]
+				zombified_player = true
+
+			[light_sources.settings.entities.adventurez]
+				amethyst_golem = true
+				deer = true
+
+			[light_sources.settings.entities.birdsboids]
+				bird = true
+
+			[light_sources.settings.entities.variantsandventures]
+				murk = true

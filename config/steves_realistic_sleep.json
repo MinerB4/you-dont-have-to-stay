@@ -21,6 +21,6 @@
   "precipitationTickSpeedMultiplier": 5.0,
   "blockRandomTickSpeedMultiplier": 1.0,
   "fluidRandomTickSpeedMultiplier": 1.0,
-  "worldRendererTickSpeedMultiplier": 25.0,
+  "worldRendererTickSpeedMultiplier": 1.0,
   "tickDelay": -1
 }

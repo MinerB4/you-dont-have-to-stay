@@ -1,14 +1,14 @@
 {
 	/* How many emeralds you're trading: DEFAULTS between 1 and 3
-	   - default: 1
+	   - default: 2
 	*/
 	costForCocoaBeansInEmeralds: 2,
 	/* How many Cocoa Beans you're trading: DEFAULTS between 1 and 3
-	   - default: 2
+	   - default: 1
 	*/
 	costForBrownDyeInCocoaBeans: 2,
 	/* How much Brown Dye you'll receive in a trade: DEFAULTS between 1 and 5
-	   - default: 1
+	   - default: 2
 	*/
 	payoutForBrownDyeTrade: 4,
 	/* How many Cocoa Beans you'll receive in a trade: DEFAULTS between 1 and 5

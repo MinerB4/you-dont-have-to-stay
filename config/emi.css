@@ -71,7 +71,7 @@
 	/**
 	 * The unit to display fluids as.
 	 */
-	fluid-unit: liters;
+	fluid-unit: millibuckets;
 
 	/**
 	 * Whether to use the batched render system. Batching is faster, but may have
@@ -152,7 +152,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: favorites, lookup-history, craft-history;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -182,7 +182,7 @@
 	/**
 	 * Which theme to use for the left sidebar
 	 */
-	left-sidebar-theme: transparent;
+	left-sidebar-theme: modern;
 
 	/**
 	 * The pages in the right sidebar
