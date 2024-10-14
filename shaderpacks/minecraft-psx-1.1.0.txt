@@ -1,0 +1,6 @@
+#Sun Oct 13 19:28:49 EDT 2024
+fog_distance=600
+resolution_scale=0.3334
+vertex_inaccuracy_entities=5.0
+vertex_inaccuracy_hand=0.0
+vertex_inaccuracy_terrain=5.0

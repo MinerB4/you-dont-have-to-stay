@@ -48,6 +48,11 @@ leavesDecayEffects = true
 farmlandDestroyEffects = true
 amethystSparkleDisplayType = "ON"
 floweringAzaleaPetals = true
+sculkBlockSculkDust = true
+sculkVeinSculkDust = true
+sculkShriekerDestroySouls = true
+sculkCatalystDestroySouls = true
+calibratedSculkSensorAmethystSparkle = true
 
 [sparks]
 removeVanillaCampfireSparks = true
@@ -73,3 +78,5 @@ steamingWater = false
 boilingWater = false
 steamingWaterCauldron = false
 boilingWaterCauldron = false
+steamingThreshold = 11
+boilingThreshold = 13

@@ -8,7 +8,9 @@
   "recordHotbar": true,
   "localPlayerUpdatesPerSecond": 20,
   "recordVoiceChat": false,
-  "openedWindows": [],
+  "openedWindows": [
+    "player_list"
+  ],
   "nextUnsupportedModLoaderWarning": 0,
   "flightCameraDirection": false,
   "flightMomentum": 1.0,

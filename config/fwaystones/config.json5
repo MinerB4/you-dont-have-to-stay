@@ -9,7 +9,7 @@
 	"teleportation_cost": {
 		"cost_type": "LEVEL",
 		"cost_item": "minecraft:ender_pearl",
-		"base_cost": 1,
+		"base_cost": 0,
 		"cost_per_block_distance": 0.0,
 		"cost_multiplier_between_dimensions": 1.0
 	},
@@ -21,17 +21,17 @@
 	"store_waystone_data_on_sneak_break": true,
 	"discover_waystone_on_map_use": false,
 	"can_owners_redeem_payments": false,
-	"waystone_block_hardness": 50.0,
-	"waystone_block_required_mining_level": 2,
+	"waystone_block_hardness": 10.0,
+	"waystone_block_required_mining_level": 0,
 	"permission_level_for_breaking_waystones": "ANYONE",
 	"global_mode_toggle_permission_levels": "OWNER",
 	"teleportation_cooldown": {
-		"cooldown_ticks_when_hurt": 1200,
-		"cooldown_ticks_from_abyss_watcher": 1200,
-		"cooldown_ticks_from_pocket_wormhole": 1200,
-		"cooldown_ticks_from_local_void": 1200,
-		"cooldown_ticks_from_void_totem": 1200,
-		"cooldown_ticks_from_waystone": 1200
+		"cooldown_ticks_when_hurt": 600,
+		"cooldown_ticks_from_abyss_watcher": 600,
+		"cooldown_ticks_from_pocket_wormhole": 600,
+		"cooldown_ticks_from_local_void": 600,
+		"cooldown_ticks_from_void_totem": 600,
+		"cooldown_ticks_from_waystone": 600
 	},
 	"disable_teleportation_from_dimensions": [],
 	"disable_teleportation_to_dimensions": [],

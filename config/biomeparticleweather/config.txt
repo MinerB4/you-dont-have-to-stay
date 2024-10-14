@@ -1,4 +1,4 @@
-lightning_particle_density=32
+lightning_particle_density=0
 spawn_radius=16
 version=2
 float

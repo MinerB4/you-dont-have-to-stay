@@ -58,6 +58,20 @@ mode = "fancy"
 				pillager = true
 				vindicator = true
 				arrow = true
+				fox = true
+				lightning_bolt = true
+				zombified_piglin = true
+				piglin_brute = true
+				piglin = true
+				strider = true
+				axolotl = true
+				cod = true
+				experience_bottle = true
+				turtle = true
+				illusioner = true
+				silverfish = true
+				hoglin = true
+				magma_cube = true
 
 			[light_sources.settings.entities.tide]
 				bass = true
@@ -69,6 +83,10 @@ mode = "fancy"
 				pike = true
 				tuna = true
 				catfish = true
+				barracuda = true
+				mackerel = true
+				ocean_perch = true
+				clayfish = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -76,6 +94,9 @@ mode = "fancy"
 			[light_sources.settings.entities.friendsandfoes]
 				mauler = true
 				rascal = true
+				glare = true
+				crab = true
+				wildfire = true
 
 			[light_sources.settings.entities.zombifiedplayer]
 				zombified_player = true
@@ -83,9 +104,18 @@ mode = "fancy"
 			[light_sources.settings.entities.adventurez]
 				amethyst_golem = true
 				deer = true
+				summoner = true
+				orc = true
+				skeleton_vanguard = true
 
 			[light_sources.settings.entities.birdsboids]
 				bird = true
 
 			[light_sources.settings.entities.variantsandventures]
 				murk = true
+
+			[light_sources.settings.entities.wilderwild]
+				crab = true
+
+			[light_sources.settings.entities.verdance]
+				cushion = true
