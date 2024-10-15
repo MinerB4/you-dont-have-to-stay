@@ -2,10 +2,12 @@
   "splashMode": "RANDOM_SPLASH",
   "customSplash": "Singular Splash!",
   "customSplashes": [
-    "DADADADADA, SUCTION CUP MAN, LOOK AT ME GO!",
-    "There is no sex update.",
-    "Also try Hit Single Friday Night Funkin\u0027 mod!",
-    "Haha, I have no idea! *explosion*"
+    "no guys, glue ball is not full of cum. stop it.",
+    "I know where you live.",
+    "You\u0027re not Hungry when you\u0027re Snickers, have a You!",
+    "fuck you nintendo",
+    "i eat children occasionally",
+    "Jens Bergenstein my beloved ❤❤❤"
   ],
   "color": "AQUA",
   "OBFUSCATED": false,
@@ -13,5 +15,5 @@
   "STRIKETHROUGH": false,
   "UNDERLINE": false,
   "ITALIC": false,
-  "disableButton": false
+  "disableButton": true
 }

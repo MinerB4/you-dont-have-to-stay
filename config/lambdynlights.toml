@@ -72,6 +72,17 @@ mode = "fancy"
 				silverfish = true
 				hoglin = true
 				magma_cube = true
+				tropical_fish = true
+				trident = true
+				pufferfish = true
+				tnt_minecart = true
+				husk = true
+				parrot = true
+				camel = true
+				donkey = true
+				area_effect_cloud = true
+				guardian = true
+				skeleton_horse = true
 
 			[light_sources.settings.entities.tide]
 				bass = true
@@ -87,6 +98,8 @@ mode = "fancy"
 				mackerel = true
 				ocean_perch = true
 				clayfish = true
+				sailfish = true
+				angelfish = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -113,9 +126,20 @@ mode = "fancy"
 
 			[light_sources.settings.entities.variantsandventures]
 				murk = true
+				thicket = true
+				verdant = true
 
 			[light_sources.settings.entities.wilderwild]
 				crab = true
+				jellyfish = true
+				tumbleweed = true
+				scorched = true
+				firefly = true
+				ostrich = true
 
 			[light_sources.settings.entities.verdance]
 				cushion = true
+
+			[light_sources.settings.entities.desolation]
+				blackened = true
+				ash_scuttler = true
